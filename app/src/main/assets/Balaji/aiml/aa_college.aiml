@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category><pattern>* COLLEGE NAME</pattern>
+<template>Sri Ramakrishna Engineering College</template>
+</category>
+
+<category><pattern> * HOSPITAL NAME </pattern>
+<template>Sri Ramakrishna hospital</template>
+</category>
+
+<category><pattern> * HOSPITAL LOCATED </pattern>
+<template>Coimbatore</template>
+</category>
+
+<category><pattern>* patient Dany has been admitted  </pattern>
+<template>
+	<random>
+		<li>In room No. 304</li>
+		<li>In room No. 315</li>
+		<li>In room No. 216</li>
+	</random>
+</template>
+</category>
+
+<category><pattern> where is the emergency department</pattern>
+<template>Go straight and take left in E block.</template>
+</category>
+
+<category><pattern>i have a suffocation problem</pattern>
+<template>You can use a face mask</template>
+</category>
+
+<category><pattern>i have problem in breathing</pattern>
+<template>Avoid crowded places</template>
+</category>
+
+
+
+
+<category><pattern> * latest patient satisfaction rate </pattern>
+<template> yes, he has rated 4 out of 5</template>
+</category>
+
+<category><pattern> * STATE YOUR College * </pattern>
+<template>TamilNadu</template>
+</category>
+
+<category><pattern>* COLLEGE Located</pattern>
+<template>Vattamalai palayam, Coimbatore-641022</template>
+</category>
+
+<category><pattern>* FACULTY</pattern>
+<template>There are 400 faculties.</template>
+</category>
+
+<category><pattern>* students studying *</pattern>
+<template>There are 5000+ students studying in our College.</template>
+</category>
+
+<category><pattern>* bus available *</pattern>
+<template>There are 30 buses available in our College.</template>
+</category>
+
+<category><pattern>* Fee structure </pattern>
+<template>
+	contact office.
+</template>
+</category>
+
+
+<category><pattern>* COURSES *</pattern>
+<template>There are 9 UG courses.
+1) IT
+2) ECE
+3) EIE
+4) CSE
+5) BME
+6) MECH
+7) CIVIL
+8) AERO
+9) EEE
+</template>
+</category>
+
+<category><pattern>* Departments *</pattern>
+<template>There are 9 departments.
+1) IT
+2) ECE
+3) EIE
+4) CSE
+5) BME
+6) MECH
+7) CIVIL
+8) AERO
+9) EEE
+</template>
+</category>
+
+<category>
+<pattern>Information technology</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.50
+		MBC-175.75
+		BC-183.75
+		SC-81
+		BCM-171.50
+		
+</template>
+</category>
+
+<category>
+<pattern>Computer science and engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-189.50
+		MBC-180
+		BC-187.75
+		ST-98.25
+		SC-130.50
+		SCA-147
+		BCM-176.50
+</template>
+</category>
+
+<category>
+<pattern>Electronics and Communication Engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-191
+		MBC-182.75
+		BC-189.50
+		SC-149.50
+		SCA-145.25
+		BCM-179
+</template>
+</category>
+
+<category>
+<pattern>Electronics and instrumentation Engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.25
+		MBC-167.75
+		BC-182.75
+		ST-98.25
+		SC-111.25
+		SCA-91
+		BCM-169.50
+</template>
+</category>
+
+<category>
+<pattern>Mechanical Engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-188
+		MBC-179.25
+		BC-185.25
+		ST-133.75
+		SC-147
+		SCA-151.50
+		BCM-173
+</template>
+</category>
+
+
+
+<category>
+<pattern> * SCHOLARSHIPS * </pattern>
+<template>
+	Scholorships for SC/ST-
+	Alumini scholarships.
+</template>
+</category>
+
+
+<category>
+  <pattern>My name is *</pattern>
+  <template>
+	 Hello!<think><set name = "username"> <star/></set></think>
+	 How can i help you...!!!
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 200</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 199.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 199.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 199.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 199</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 198.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 198.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 198.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 198</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 197.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 197.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 197.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 197</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 196.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 196.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 196.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 196</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 195.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 195.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 195.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 195</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 194.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 194.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 194.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 194</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 193.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 193.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 193.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 193</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 192.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 192.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 192.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 192</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 191.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 191.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 191.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 191</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 190.75</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 190.50</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 190.25</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 190</pattern>
+  <template>
+	You are eligible for all courses
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 189.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 189.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 189.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 189</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 188.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 188.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 188.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 188</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 187.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 187.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 187.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 187</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 186.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 186.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 186.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 186</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 185.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 185.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 185.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 185</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 184.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 184.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 184.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 184</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 183.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 183.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 183.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 183</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 182.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 182.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 182.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 182</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 181.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 181.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 181.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 181</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 180.75</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+  <pattern>My cutoff is 180.50</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 180.25</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+
+<category>
+  <pattern>My cutoff is 180</pattern>
+  <template>
+	Mechanical and ECE course will not be available  for this cut-off
+  </template>  
+</category>
+
+<category>
+<pattern>* Information technology *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.50
+		MBC-175.75
+		BC-183.75
+		SC-81
+		BCM-171.50
+		
+</template>
+</category>
+
+<category>
+<pattern>* Computer science and engineering *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-189.50
+		MBC-180
+		BC-187.75
+		ST-98.25
+		SC-130.50
+		SCA-147
+		BCM-176.50
+</template>
+</category>
+
+<category>
+<pattern>* Electronics and Communication Engineering *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-191
+		MBC-182.75
+		BC-189.50
+		SC-149.50
+		SCA-145.25
+		BCM-179
+</template>
+</category>
+
+<category>
+<pattern>* Electronics and instrumentation Engineering *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.25
+		MBC-167.75
+		BC-182.75
+		ST-98.25
+		SC-111.25
+		SCA-91
+		BCM-169.50
+</template>
+</category>
+
+<category>
+<pattern>* Mechanical Engineering *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-188
+		MBC-179.25
+		BC-185.25
+		ST-133.75
+		SC-147
+		SCA-151.50
+		BCM-173
+</template>
+</category>
+
+<category>
+<pattern>* IT *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.50
+		MBC-175.75
+		BC-183.75
+		SC-81
+		BCM-171.50
+		
+</template>
+</category>
+
+<category>
+<pattern>* CSE *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-189.50
+		MBC-180
+		BC-187.75
+		ST-98.25
+		SC-130.50
+		SCA-147
+		BCM-176.50
+</template>
+</category>
+
+<category>
+<pattern>* ECE *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-191
+		MBC-182.75
+		BC-189.50
+		SC-149.50
+		SCA-145.25
+		BCM-179
+</template>
+</category>
+
+<category>
+<pattern>* EIE *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.25
+		MBC-167.75
+		BC-182.75
+		ST-98.25
+		SC-111.25
+		SCA-91
+		BCM-169.50
+</template>
+</category>
+
+<category>
+<pattern>* MECH *</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-188
+		MBC-179.25
+		BC-185.25
+		ST-133.75
+		SC-147
+		SCA-151.50
+		BCM-173
+</template>
+</category>
+
+<category>
+<pattern>Information technology</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.50
+		MBC-175.75
+		BC-183.75
+		SC-81
+		BCM-171.50
+		
+</template>
+</category>
+
+<category>
+<pattern>Computer science and engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-189.50
+		MBC-180
+		BC-187.75
+		ST-98.25
+		SC-130.50
+		SCA-147
+		BCM-176.50
+</template>
+</category>
+
+<category>
+<pattern>Electronics and Communication Engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-191
+		MBC-182.75
+		BC-189.50
+		SC-149.50
+		SCA-145.25
+		BCM-179
+</template>
+</category>
+
+<category>
+<pattern>Electronics and instrumentation Engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.25
+		MBC-167.75
+		BC-182.75
+		ST-98.25
+		SC-111.25
+		SCA-91
+		BCM-169.50
+</template>
+</category>
+
+<category>
+<pattern>Mechanical Engineering</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-188
+		MBC-179.25
+		BC-185.25
+		ST-133.75
+		SC-147
+		SCA-151.50
+		BCM-173
+</template>
+</category>
+
+<category>
+<pattern>IT</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.50
+		MBC-175.75
+		BC-183.75
+		SC-81
+		BCM-171.50
+		
+</template>
+</category>
+
+<category>
+<pattern>CSE</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-189.50
+		MBC-180
+		BC-187.75
+		ST-98.25
+		SC-130.50
+		SCA-147
+		BCM-176.50
+</template>
+</category>
+
+<category>
+<pattern>ECE</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-191
+		MBC-182.75
+		BC-189.50
+		SC-149.50
+		SCA-145.25
+		BCM-179
+</template>
+</category>
+
+<category>
+<pattern>EIE</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-185.25
+		MBC-167.75
+		BC-182.75
+		ST-98.25
+		SC-111.25
+		SCA-91
+		BCM-169.50
+</template>
+</category>
+
+<category>
+<pattern>MECH</pattern>
+<template> 
+	No. of students - 
+	No. of faculties - 
+	Recruiters - 
+	No. of students placed last year - 
+	cut-off reuired:
+		OC-188
+		MBC-179.25
+		BC-185.25
+		ST-133.75
+		SC-147
+		SCA-151.50
+		BCM-173
+</template>
+</category>
+
+
+</aiml>

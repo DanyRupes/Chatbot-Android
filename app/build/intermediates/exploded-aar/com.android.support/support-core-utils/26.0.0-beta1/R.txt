@@ -1,0 +1,18 @@
+int attr font 0x7f010005
+int attr fontProviderAuthority 0x7f010000
+int attr fontProviderCerts 0x7f010003
+int attr fontProviderPackage 0x7f010001
+int attr fontProviderQuery 0x7f010002
+int attr fontStyle 0x7f010004
+int attr fontWeight 0x7f010006
+int id italic 0x7f020000
+int id normal 0x7f020001
+int[] styleable FontFamily { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable FontFamily_fontProviderAuthority 0
+int styleable FontFamily_fontProviderCerts 3
+int styleable FontFamily_fontProviderPackage 1
+int styleable FontFamily_fontProviderQuery 2
+int[] styleable FontFamilyFont { 0x7f010004, 0x7f010005, 0x7f010006 }
+int styleable FontFamilyFont_font 1
+int styleable FontFamilyFont_fontStyle 0
+int styleable FontFamilyFont_fontWeight 2

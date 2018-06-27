@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>VERSION</pattern>
+<template> AIML Bot version 2.0</template>
+</category>
+<category><pattern>BUILD</pattern>
+<template>Built on december 21</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>AIML + Android</template>
+</category>
+</aiml>
