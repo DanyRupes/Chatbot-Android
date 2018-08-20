@@ -1,8 +1,0 @@
-
-name:Chitty
-email:balajinraj007@gmail.com
-gender:male
-botmaster:Balaji
-organization:SREC
-version:0.0.1
-

@@ -1,7 +1,0 @@
-attr font
-attr fontProviderAuthority
-attr fontProviderCerts
-attr fontProviderPackage
-attr fontProviderQuery
-attr fontStyle
-attr fontWeight
